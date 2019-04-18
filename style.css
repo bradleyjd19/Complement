@@ -1,0 +1,151 @@
+body.modal-open .container-fluid{
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);  
+}
+
+body{
+  background-image: url("./images/restaurant_icons.png");
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+#slides {
+  margin-bottom: 15px;
+}
+
+.main-text {
+  position: absolute;
+  top: 1.5rem;
+  width: 100%;
+}
+
+.display-4{
+  font: 6vw 'Berkshire Swash', Helvetica, sans-serif;
+  color: #2b2b2b;
+  text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0.15);
+}
+
+#tagline {
+  font-size: 2vw;
+}
+
+.mainCard{
+  min-height: 625px;
+  margin: 10px 10px;
+  background-color: rgba(255,255,255,0.5);
+}
+
+.row { 
+  margin: 0; padding: 0
+ }
+
+.resultsCard{
+  margin: 10px;
+  background-color: rgba(255,255,255,0.5);
+}
+
+.hidden{
+  display: none
+}
+
+.btn {
+  background-color: #99CC99;
+  color: black;
+  border: 1px solid black;
+}
+
+.btn:hover {
+  background-color: #99CC33;
+  color: white;
+  border: 1px solid black;
+}
+
+.btn:focus, .btn:active {
+  outline: none;
+  box-shadow:none;
+}
+
+.recipeCard, .beerCard{
+  width: 250px;
+  margin: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.card-header {
+  min-height: 75px;
+  text-align: center;
+  background-color: #99CC99;
+}
+
+.beer-image,
+#beer-image {
+  height: 200px;
+}
+
+#valAlert {
+  color: red;
+}
+
+.modal-title{
+  text-align: center;
+}
+
+.close{
+  float: right;
+}
+
+.modalCard{
+  min-height: 340px;
+  text-align: center;
+}
+
+li{
+  cursor: pointer;
+}
+
+.scroll {
+  max-height: 340px;
+  overflow-y: auto;
+}
+
+.beerType{
+  margin: 5px;
+  min-width: 200px;
+}
+
+.my-error-class {
+  color:#FF0000;  /* red */
+}
+
+.strike{
+  text-decoration: line-through;
+ }
+
+@media only screen and (max-width: 700px) {
+
+  #slides {
+    display: none;
+  }
+
+  .main-text {
+    position: static; 
+  }
+
+  .mainCard{
+    min-height: 5px;
+  }
+
+  .display-4{
+    font-size: 325%;
+  }
+  
+  #tagline {
+    font-size: 105%;
+  }
+}
