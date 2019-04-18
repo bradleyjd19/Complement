@@ -2,7 +2,7 @@
 *A food and beer pairing app*
 
 ## Link to deployed project:
-https://bkhoffman.github.io/Complement/
+https://bradleyjd19.github.io/Complement/
 
 ## Known issue:
 The Edamam recipe search API is limited to 5 queries/minute because we are using the free-level of the API so if too many queries are attempted then any further queries will fail because of a 401 restricted error. If we continue to develop this app and want to market it then we would pay for a higher level of the API to remove this restrction.
